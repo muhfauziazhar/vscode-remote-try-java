@@ -63,3 +63,15 @@ Jumlah Penghasilan: Rp 10,100,000
 - `target/Tugas-2_Muhammad-Fauzi-Azhar.jar` - Executable JAR
 - `pom.xml` - Maven configuration
 - `README-TUGAS.md` - Dokumentasi ini
+---
+
+# Tugas Praktik 1 (STSI4201): Aplikasi Restoran
+
+Kelas: `Menu.java` (data item menu) dan `Main.java` (program utama), tanpa struktur pengulangan.
+
+```bash
+javac -d target/classes src/main/java/com/mycompany/app/Menu.java src/main/java/com/mycompany/app/Main.java
+java -cp target/classes com.mycompany.app.Main
+```
+
+Format pesanan: `Nama Menu = Jumlah` (maksimal 4 menu), contoh `Nasi Padang = 2`.
